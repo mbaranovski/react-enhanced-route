@@ -8,3 +8,4 @@ package-lock.json
 rollup.config.js
 wallaby.js
 node_modules/
+/.gitignore
