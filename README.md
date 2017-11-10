@@ -35,6 +35,7 @@ Create protected route with redirection and layout
 ```
 
 For live examples click below:
+
 [![Edit react-enhanced-route example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/62nxxq16rn)
 
 ## License
