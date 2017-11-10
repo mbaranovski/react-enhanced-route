@@ -6,11 +6,10 @@
   "main": "dist/react-enhanced-route.js",
   "scripts": {
     "clean": "rm -rf dist/* ",
-    "build": "rollup -c",
+    "build": "npm run rollup -c",
     "dev": "rollup -c -w",
     "pretest": "npm run build",
-    "test": "jest",
-    "release": "release-flow"
+    "test": "npm run jest"
   },
   "repository": "bombellos/react-enhanced-route",
   "keywords": [
@@ -40,7 +39,6 @@
     "eslint-plugin-react": "^7.4.0",
     "jest": "^21.2.1",
     "react-test-renderer": "^15.6.2",
-    "release-flow": "^1.2.1",
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-resolve": "^3.0.0",
