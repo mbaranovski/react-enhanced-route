@@ -8,8 +8,8 @@
     "clean": "rm -rf dist/* ",
     "build": "npm run rollup -c",
     "dev": "rollup -c -w",
-    "pretest": "npm run build",
-    "test": "npm run jest"
+    "pretest": "build",
+    "test": "jest"
   },
   "repository": "bombellos/react-enhanced-route",
   "keywords": [
@@ -39,6 +39,7 @@
     "eslint-plugin-react": "^7.4.0",
     "jest": "^21.2.1",
     "react-test-renderer": "^15.6.2",
+    "rollup": "^0.51.3",
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-commonjs": "^8.2.6",
     "rollup-plugin-node-resolve": "^3.0.0",
