@@ -1,0 +1,65 @@
+{
+  "name": "react-enhanced-route",
+  "version": "1.0.0",
+  "description": "React Enhanced Route - define custom layouts for your routes, prevent from accessing protected routes!",
+  "browser": "dist/react-enhanced-route.js",
+  "scripts": {
+    "clean": "rm -rf dist/* ",
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build",
+    "test": "jest"
+  },
+  "repository": "bombellos/react-enhanced-route",
+  "keywords": [
+    "react",
+    "route",
+    "authorized route",
+    "protected route"
+  ],
+  "author": "Michal Baranowski",
+  "license": "MIT",
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^2.9.1",
+    "enzyme-to-json": "^1.6.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1",
+    "react-test-renderer": "^15.6.2",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-replace": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=15",
+    "react-dom": ">=15"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(gif|png|jpe?g|svg|scss)$": "<rootDir>/fileTransformer.js"
+    },
+    "setupFiles": [
+      "./jestSetup.js"
+    ],
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ],
+    "roots": [
+      "<rootDir>/src"
+    ]
+  },
+  "files": [
+    "dist"
+  ]
+}
