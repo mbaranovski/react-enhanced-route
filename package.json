@@ -8,8 +8,8 @@
     "clean": "rm -rf dist/* ",
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "pretest": "npm run build",
-    "test": "jest"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "repository": "bombellos/react-enhanced-route",
   "keywords": [
