@@ -6,7 +6,7 @@
   "main": "dist/react-enhanced-route.js",
   "scripts": {
     "clean": "rm -rf dist/* ",
-    "build": "npm run rollup -c",
+    "build": "rollup -c",
     "dev": "rollup -c -w",
     "pretest": "build",
     "test": "jest"
