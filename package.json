@@ -9,7 +9,8 @@
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "patch": "npm version patch -m 'Push patch %s'"
   },
   "repository": "bombellos/react-enhanced-route",
   "keywords": [

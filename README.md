@@ -1,5 +1,5 @@
 # react-enhanced-route
-[![npm version](https://badge.fury.io/js/react-enhanced-route.svg)](https://badge.fury.io/js/react-enhanced-route) [![npm](https://img.shields.io/npm/dm/react-enhanced-route.svg)](https://www.npmjs.com/package/react-enhanced-route) [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/bombellos/react-enhanced-route/blob/master/LICENSE)
+[![npm version](https://badge.fury.io/js/react-enhanced-route.svg)](https://badge.fury.io/js/react-enhanced-route) [![CircleCI branch](https://img.shields.io/circleci/project/github/bombellos/react-enhanced-route/master.svg)]() [![npm](https://img.shields.io/npm/dm/react-enhanced-route.svg)](https://www.npmjs.com/package/react-enhanced-route) [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/bombellos/react-enhanced-route/blob/master/LICENSE)
 
 Using `react-enhanced-route` we can create react routes with custom layouts and prevent accessing routes based on authentication.
 
