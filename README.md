@@ -1,9 +1,11 @@
 # react-enhanced-route
 [![npm version](https://badge.fury.io/js/react-enhanced-route.svg)](https://badge.fury.io/js/react-enhanced-route) [![CircleCI branch](https://img.shields.io/circleci/project/github/bombellos/react-enhanced-route/master.svg)]() [![npm](https://img.shields.io/npm/dm/react-enhanced-route.svg)](https://www.npmjs.com/package/react-enhanced-route) [![license](https://img.shields.io/badge/license-MIT-green.svg)](https://github.com/bombellos/react-enhanced-route/blob/master/LICENSE)
 
-Using `react-enhanced-route` we can create react routes with custom layouts and prevent accessing routes based on authentication.
+`react-enhanced-route` allows you to create react routes with custom layouts and routes which require authentication.
 
 ## Getting started
+
+Install and add package as dependency by running one of below commands.
 
 Using npm:
 
@@ -17,7 +19,14 @@ Using yarn:
 yarn add react-enhanced-route
 ```
 
+Import package and follow the examples below:
+
+```
+import {EnhancedRoute as Route} from 'react-enhanced-route'
+```
+
 ## Examples
+
 
 Create route with custom layout
 ```js
