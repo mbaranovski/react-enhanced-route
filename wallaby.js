@@ -11,7 +11,7 @@ module.exports = function (wallaby) {
         ],
 
         compilers: {
-            '**/*.js*': wallaby.compilers.babel()
+            '**/*.js': wallaby.compilers.babel()
         },
 
         env: {

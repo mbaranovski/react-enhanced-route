@@ -1,14 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`EnhancedRoute test should redirect to provided page when accessing protected route 1`] = `null`;
+exports[`redirect to provided page when accessing protected route 1`] = `null`;
 
-exports[`EnhancedRoute test should render and allow access to protected route with provided component 1`] = `
+exports[`render and allow access to protected route with provided component 1`] = `
 <div>
   Admin Page
 </div>
 `;
 
-exports[`EnhancedRoute test should render and allow access to protected route with provided component and layout 1`] = `
+exports[`render and allow access to protected route with provided component and layout 1`] = `
 <div>
   <div>
     Header
@@ -22,19 +22,19 @@ exports[`EnhancedRoute test should render and allow access to protected route wi
 </div>
 `;
 
-exports[`EnhancedRoute test should render default route with provided component 1`] = `
+exports[`render default route with provided component 1`] = `
 <div>
   Public Page
 </div>
 `;
 
-exports[`EnhancedRoute test should render default unauthorized page when accessing protected route 1`] = `
+exports[`render default unauthorized page when accessing protected route 1`] = `
 <div>
   Unauthorized
 </div>
 `;
 
-exports[`EnhancedRoute test should render route with provided layout and child component 1`] = `
+exports[`render route with provided layout and child component 1`] = `
 <div>
   <div>
     Header
