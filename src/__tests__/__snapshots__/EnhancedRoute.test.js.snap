@@ -47,3 +47,99 @@ exports[`EnhancedRoute test should render route with provided layout and child c
   </div>
 </div>
 `;
+
+exports[`redirect to provided page when accessing protected route 1`] = `null`;
+
+exports[`render and allow access to protected route with provided component 1`] = `
+<div>
+  Admin Page
+</div>
+`;
+
+exports[`render and allow access to protected route with provided component and layout 1`] = `
+<div>
+  <div>
+    Header
+  </div>
+  <div>
+    Sidebar
+  </div>
+  <div>
+    Admin Page
+  </div>
+</div>
+`;
+
+exports[`render default route with provided component 1`] = `
+<div>
+  Public Page
+</div>
+`;
+
+exports[`render default unauthorized page when accessing protected route 1`] = `
+<div>
+  Unauthorized
+</div>
+`;
+
+exports[`render route with provided layout and child component 1`] = `
+<div>
+  <div>
+    Header
+  </div>
+  <div>
+    Sidebar
+  </div>
+  <div>
+    Public Page
+  </div>
+</div>
+`;
+
+exports[`should redirect to provided page when accessing protected route 1`] = `null`;
+
+exports[`should render and allow access to protected route with provided component 1`] = `
+<div>
+  Admin Page
+</div>
+`;
+
+exports[`should render and allow access to protected route with provided component and layout 1`] = `
+<div>
+  <div>
+    Header
+  </div>
+  <div>
+    Sidebar
+  </div>
+  <div>
+    Admin Page
+  </div>
+</div>
+`;
+
+exports[`should render default route with provided component 1`] = `
+<div>
+  Public Page
+</div>
+`;
+
+exports[`should render default unauthorized page when accessing protected route 1`] = `
+<div>
+  Unauthorized
+</div>
+`;
+
+exports[`should render route with provided layout and child component 1`] = `
+<div>
+  <div>
+    Header
+  </div>
+  <div>
+    Sidebar
+  </div>
+  <div>
+    Public Page
+  </div>
+</div>
+`;
