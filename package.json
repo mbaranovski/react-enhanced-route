@@ -12,7 +12,7 @@
     "test:coverage": "jest --coverage",
     "patch": "npm version patch -m 'Push patch %s'"
   },
-  "repository": "bombellos/react-enhanced-route",
+  "repository": "mbaranovski/react-enhanced-route",
   "keywords": [
     "react",
     "route",
