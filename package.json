@@ -1,6 +1,6 @@
 {
   "name": "react-enhanced-route",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Enhanced Route - define custom layouts for your routes, prevent from accessing protected routes!",
   "browser": "dist/react-enhanced-route.js",
   "main": "dist/react-enhanced-route.js",
@@ -28,6 +28,7 @@
     "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.0",
