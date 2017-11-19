@@ -1,6 +1,6 @@
 {
   "name": "react-enhanced-route",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Enhanced Route - define custom layouts for your routes, prevent from accessing protected routes!",
   "browser": "dist/react-enhanced-route.js",
   "main": "dist/react-enhanced-route.js",
